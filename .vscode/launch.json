@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug C Program",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "C:/Users/ADMIN/Desktop/Firmware_Projects/embedded-c-baremetal-stm32/Basic_C/Pointers/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "C:/Users/ADMIN/Desktop/Firmware_Projects/embedded-c-baremetal-stm32/Basic_C/Pointers",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/mingw/bin/gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build and run C"
+    }
+  ]
+}

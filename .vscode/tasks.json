@@ -1,0 +1,44 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build and run C",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "pointer_declaration.c",
+          "-o",
+          "pointer_declaration.exe",
+          "&&",
+          ".\\pointer_declaration.exe"
+        ],
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "Compile and run C program"
+      },
+      {
+        "type": "cppbuild",
+        "label": "C/C++: gcc.exe build active file",
+        "command": "C:\\MinGW\\bin\\gcc.exe",
+        "args": [
+          "-fdiagnostics-color=always",
+          "-g",
+          "${file}",
+          "-o",
+          "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        ],
+        "options": {
+          "cwd": "${fileDirname}"
+        },
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "detail": "compiler: C:\\MinGW\\bin\\gcc.exe"
+      }
+    ]
+}
