@@ -16,6 +16,15 @@ The **ARM Cortex-M** series is a family of ARM microprocessor cores designed for
 | Cortex-M23 | Security (TrustZone)       | Low              | M0-class + security          |
 | Cortex-M33 | Security + performance     | Medium           | M3-class + TrustZone         |
 
+
+- **Harvard architecture:** Separate instruction and data buses
+- **Thumb-2 instruction set:** 16-bit and 32-bit mixed instructions
+- **Low interrupt latency:** NVIC (Nested Vectored Interrupt Controller)
+- **SysTick Timer:** Built-in 24-bit timer for RTOS tick or delay
+- **Bit-banding:** Fast bit-level manipulation (Cortex-M3 and above)
+- **Integrated Debugging:** SWD, DWT, ITM, ETM support
+- **Optional FPU and DSP:** In Cortex-M4 and M7
+
 Follow the below Link for In-depth Details & Learning
 https://www.ti.com/lit/ml/swrp141/swrp141.pdf?ts=1754390973947&ref_url=https%253A%252F%252Fin.search.yahoo.com%252F
 

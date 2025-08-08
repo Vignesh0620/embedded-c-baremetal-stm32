@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//Finds if a specific bit in a number is set or not
 int main()
 {
     int val, bit_position;
