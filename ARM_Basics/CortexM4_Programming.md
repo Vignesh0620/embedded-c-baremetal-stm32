@@ -15,6 +15,7 @@ register descriptions, it contains information about the processor modes and pri
 for software execution and stacks.
 2.1.1 Processor mode and privilege levels for software execution
 The processor modes are:
+
 **Thread mode**: Used to execute application software.
 The processor enters Thread mode when it comes out of reset.
 The CONTROL register controls whether software execution is
