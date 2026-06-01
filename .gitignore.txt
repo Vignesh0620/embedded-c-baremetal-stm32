@@ -1,0 +1,53 @@
+# ==========================================
+# STM32 Toolchains and Build Outputs
+# ==========================================
+# Ignore compiler generated binaries, maps, and object files
+*.o
+*.su
+*.d
+*.crf
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+
+# Ignore default build directories created by STM32CubeIDE / Eclipse
+Debug/
+Release/
+
+# ==========================================
+# STM32CubeIDE / Eclipse Project Settings
+# ==========================================
+# Ignore local user preferences and history
+.settings/
+.local/
+
+# Ignore Eclipse debug and launch configurations 
+# (Uncomment the line below if team members use different debuggers or hardware serial numbers)
+# *.launch
+
+# ==========================================
+# STM32CubeMX Configurations
+# ==========================================
+# Ignore the backup directory generated during code generation updates
+MDK-ARM/
+*/MDK-ARM/
+Backup/
+
+# ==========================================
+# Keil uVision (if using Keil MDK instead)
+# ==========================================
+*.uvguix.*
+*.uv2.bak
+*.pjt.bak
+*.saved_bak
+Listings/
+Objects/
+
+# ==========================================
+# Operating System & IDE Logs
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
